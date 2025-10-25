@@ -13,3 +13,12 @@ mov3 = input("Enter the third movie name:")
 movies.append(mov3)
 
 print(movies)
+
+# direct way --
+
+film = []
+film.append(input("Enter first movie: "))
+film.append(input("Enter second movie: "))
+film.append(input("Enter third movie: "))
+
+print(film)
